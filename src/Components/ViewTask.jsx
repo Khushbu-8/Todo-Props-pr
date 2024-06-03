@@ -8,7 +8,7 @@ import { LuClipboardEdit } from "react-icons/lu";
 const ViewTask = ({Viewtask, EditTask,DeletTask}) => {
   return (
     <div align="center">
-      <h1>view task</h1>
+      <h1>Tasks</h1>
       <div className='tasklist'>
           {
             Viewtask.map((item) => {
